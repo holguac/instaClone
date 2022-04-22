@@ -1,5 +1,5 @@
 import "./Navbar.css";
-// import logo from "../../images/logo.png";
+import logo from "../../images/logo.png";
 // import profilePic from "../../images/picprofile.jpeg";
 import { BsFillHouseDoorFill } from "react-icons/bs/";
 import { FiSend } from "react-icons/fi";
@@ -11,7 +11,7 @@ import { FiHeart } from "react-icons/fi";
 const Nav = () => {
 return (
     <div className="nav">
-      {/* <img src={logo} alt="instagram logo" /> */}
+      <img src={logo} alt="instagram logo" />
       <div className="search">
         <input placeholder="Search" />
       </div>
